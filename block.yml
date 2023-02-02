@@ -29,6 +29,19 @@ payload:
   - DOMAIN-SUFFIX,fbinfra.net
   - DOMAIN-SUFFIX,fbwat.ch
 
+# instagram
+  - DOMAIN-KEYWORD,instagram 
+   - DOMAIN-SUFFIX,cdninstagram.com
+
+#Google  
+  - DOMAIN-SUFFIX,play.googleapis.com #Google Play
+  - DOMAIN-SUFFIX,play-fe.googleapis.com #Google Play
+  - DOMAIN-SUFFIX,googleapis.com #Google Play
+  - DOMAIN-SUFFIX,apis.google.com #Google Play
+  - DOMAIN-SUFFIX,gvt1.com #Google Play
+  - DOMAIN-SUFFIX,app-measurement.com #Google Play
+  - DOMAIN-SUFFIX,gstatic.com #Google Play
+  
 #Youtube
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,yt.com
