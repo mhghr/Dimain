@@ -51,7 +51,7 @@ proxy-providers:
 
   normal:
     type: http
-    url: "https://proxyproviderip/BASE_PATH/usersecret/clash/proxies.yml"
+    url: "https://raw.githubusercontent.com/Ghourchian/Dimain/hidd/proxies.yml"
     path: proxyproviderip/usersecret-proxies.yaml
     health-check:
       enable: true
@@ -62,27 +62,27 @@ rule-providers:
   blocked:
     type: http
     behavior: classical
-    url: "https://proxyproviderip/BASE_PATH/clash/rules/blocked-sites.yml"
+    url: "https://raw.githubusercontent.com/Ghourchian/Dimain/hidd/rules/blocked-sites.yml"
     path: ./ruleset/blocked.yaml
     interval: 432000
 
   tmpblocked:
     type: http
     behavior: classical
-    url: "https://proxyproviderip/BASE_PATH/clash/rules/tmp-blocked-sites.yml"
+    url: "https://raw.githubusercontent.com/Ghourchian/Dimain/hidd/rules/tmp-blocked-sites.yml"
     path: ./ruleset/tmpblocked.yaml
     interval: 432000
   open:
     type: http
     behavior: classical
-    url: "https://proxyproviderip/BASE_PATH/clash/rules/open-sites.yml"
+    url: "https://raw.githubusercontent.com/Ghourchian/Dimain/hidd/rules/open-sites.yml"
     path: ./ruleset/open.yaml
     interval: 432000    
 
   ads:
     type: http
     behavior: classical
-    url: "https://proxyproviderip/BASE_PATH/clash/rules/ads-sites.yml"
+    url: "https://raw.githubusercontent.com/Ghourchian/Dimain/hidd/rules/ads-sites.yml"
     path: ./ruleset/ads.yaml
     interval: 432000   
 
