@@ -21,7 +21,6 @@ proxies:
     type: trojan
     password: 37c9daa5-58e7-4900-91df-f02155999a1d
     skip-cert-verify: true
-    sni: 1.1
     udp: true
   - name: default_Trojan_gRPC
     server: seven.asemani.ml
