@@ -6,6 +6,7 @@
 
 [wildcard]
 *://*.instagram.com/*
+*://*.vscode.dev/*
 *://*.taboola.com/*
 *://*.google-analytics.com/*
 *://*.googlesyndication.com/*
